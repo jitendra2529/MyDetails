@@ -86,7 +86,9 @@ h6 {
   margin-bottom: 24px;
   font-weight: 600;
 }
-
+#preloader{
+  display:none;
+}
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
