@@ -39,7 +39,9 @@
   --surface-color: #151f2b;
   --contrast-color: #ffffff;
 }
-
+.bg-name{
+  margin-top: 250px;
+}
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -1270,5 +1272,8 @@ section,
         min-height: unset;}
 .hero img {
     object-fit: contain;
+}
+.bg-name{
+  margin-top: 0px;
 }
 }
