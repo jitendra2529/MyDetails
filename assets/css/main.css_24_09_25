@@ -39,7 +39,9 @@
   --surface-color: #151f2b;
   --contrast-color: #ffffff;
 }
-
+.bg-name{
+  margin-top: 250px;
+}
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -86,7 +88,9 @@ h6 {
   margin-bottom: 24px;
   font-weight: 600;
 }
-
+#preloader{
+  display:none;
+}
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
@@ -1254,9 +1258,7 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
-.bg-name{
-  margin-top: 200px;
-}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
@@ -1275,72 +1277,3 @@ section,
   margin-top: 0px;
 }
 }
-
-
-/* ============ my new add css resume ==================================== */
-.resume-container {
-      /* max-width: 900px; */
-      /* margin: 30px auto; */
-      /* background: #fff; */
-      /* padding: 40px; */
-      /* border-radius: 10px; */
-      /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
-    }
-
-    .resume-header {
-      text-align: center;
-      /* margin-bottom: 30px; */
-    }
-
-    .resume-header h1 {
-      margin: 0;
-      font-size: 2.2em;
-      color: #222;
-    }
-
-    .resume-header p {
-      margin: 5px 0;
-      color: #555;
-      font-size: 0.95em;
-    }
-
-    .resume-header a {
-      color: #007BFF;
-      text-decoration: none;
-      margin: 0 5px;
-    }
-
-    .resume-section {
-      margin-bottom: -86px;
-    }
-
-    .resume-section h2 {
-      font-size: 1.5em;
-      border-bottom: 2px solid #007BFF;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-      color: #007BFF;
-    }
-
-    .resume-section h3 {
-      margin: 10px 0;
-      color: #444;
-      font-size: 21px;
-    }
-
-    .resume-list {
-      padding-left: 20px;
-    }
-
-    .resume-list li {
-      margin-bottom: 8px;
-    }
-
-    .resume-icons {
-      margin-right: 8px;
-      color: #007BFF;
-    }
-
-    .resume-links a i {
-      margin-right: 5px;
-    }
